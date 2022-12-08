@@ -1,0 +1,147 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.cabecalho {
+    background: #000000;
+}
+
+.cabecalho-caixa {
+    margin: 0 auto;
+    position: relative;
+    width: 940px;
+}
+
+.logo {
+    width: 30rem;
+}
+
+.menu {
+    position: absolute;
+    right: 0;
+    top: 9rem;
+}
+
+.menu-lista__item {
+    display: inline;
+}
+
+.menu-lista__link {
+    color: #eeeeee;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 0 0 0 1rem;
+    text-decoration: none;
+    transition: 0.5s all;
+}
+
+.menu-lista__link:hover {
+    color: #dba100;
+}
+
+.sobre {
+    background-color: #c5af72;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.sobre-titulo, .beneficios-titulo {
+    font-size: 2.5rem;
+    padding: 0 0 1rem 0;
+}
+
+.sobre-descricao {
+    font-size: 1.3rem;
+    padding: 0.5rem 0;
+}
+
+.beneficios {
+    padding: 2rem;
+}
+
+.beneficios-titulo {
+    font-size: 2.2rem;
+    padding: 0 0 2rem 0;
+    text-align: center;
+}
+
+.beneficios-lista {
+    display: inline-block;
+    padding: 0 2rem 0 0;
+    vertical-align: top;
+}
+
+.beneficios-lista__item {
+    font-size: 1.3rem;
+    padding: 0.2rem 0;
+    font-style: italic;
+}
+
+.beneficios-lista__item::first-letter {
+    font-weight: bold;
+}
+
+.beneficios-imagem {
+    padding: 0 0 0 15rem;
+    width: 40rem;
+}
+
+.div-video {
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.video {
+    width: 50%;
+}
+
+.zap-link {
+    position: fixed;
+    margin: 0 0.5rem 0 0;
+    right: 0;
+    top: 90%;
+}
+
+.zap-logo {
+    width: 4rem;
+    transition: 1s all;
+}
+
+.zap-logo:hover {
+    transform: scale(1.2);
+}
+
+.secao-maps {
+    background: linear-gradient(#ffffff, #dddddd 20%);
+    margin: 0 0 -0.2rem 0;
+    padding: 2rem 0 0 0;
+}
+
+.maps-titulo {
+    font-size: 2rem;
+    padding: 0 0 2rem 0;
+    text-align: center;
+}
+
+.maps {
+    width: 100%;
+}
+
+.rodape {
+    background: #000000;
+    padding: 0.2rem 0 1rem 0.2rem;
+}
+
+.rodape-logo {
+    width: 20rem;
+}
+
+.rodape-descricao {
+    color: #ffffff;
+    text-align: center;
+    transition: 1.5s all;
+}
+
+.rodape-descricao:hover {
+    color: #dba100;
+}

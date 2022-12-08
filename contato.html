@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contato - Jesu's Cabeleireiros</title>
+        <link rel="shortcut icon" href="./img/logo.jpg" type="image/x-icon" />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/contato.css">
+        <link rel="stylesheet" href="./css/responsivo.css">
+    </head>
+    <body>
+        <header class="cabecalho">
+            <div class="cabecalho-caixa">
+            <h1 class="titulo-principal"><img class="logo" src="./img/logo.jpg" alt="Logo Jesu's Cabeleireiros"></h1>
+                <nav class="menu">
+                    <ul class="menu-lista">
+                        <li class="menu-lista__item"><a class="menu-lista__link" href="./index.html">Home</a></li>
+                        <li class="menu-lista__item"><a class="menu-lista__link" href="./produtos.html">Produtos</a></li>
+                        <li class="menu-lista__item"><a class="menu-lista__link" href="./contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="contato-main">
+                <form class="formulario">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" required>
+
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" placeholder="email@dominio.com" required>
+
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" placeholder="(xx)xxxxx-xxxx" required>
+
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="deixe sua mensagem aqui" required></textarea>
+                    
+                    <fieldset class="fieldset-radio">
+                        <legend class="formulario-titulo">Como prefere nosso contato?</legend>
+
+                        <label for="radio-email">E-mail</label>
+                        <input type="radio" id="radio-email" name="radio-contato">
+        
+                        <label for="radio-telefone">Telefone</label>
+                        <input type="radio" id="radio-telefone" name="radio-contato">
+        
+                        <label for="radio-whatsapp">Whatsapp</label>
+                        <input type="radio" id="radio-whatsapp" name="radio-contato">
+
+                        <fieldset class="fieldset-select">
+                            <legend class="select-titulo">Qual horário prefere ser atendido(a)?</legend>
+                            <select>
+                                <option>Manhã</option>
+                                <option>Tarde</option>
+                                <option>Noite</option>
+                            </select>
+                        </fieldset>
+
+                        <label for="novidades">Gostaria de receber nossas novidades por e-mail?</label>
+                        <input type="checkbox" id="novidades">
+                    </fieldset>
+                    <input class="botao-enviar" type="submit" value="Enviar Formulário">
+                </form>
+                
+                <table class="tabela-horarios">
+                    <thead>
+                        <tr>
+                            <th colspan="2">Horário de Funcionamento</th>
+                        </tr>
+                        <tr>
+                            <th>Dia</th>
+                            <th>Horário</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Segunda</td>
+                            <td>Fechado</td>
+                        </tr>
+                        <tr>
+                            <td>Terça</td>
+                            <td>09:00 - 19:00</td>
+                        </tr>
+                        <tr>
+                            <td>Quarta</td>
+                            <td>09:00 - 19:00</td>
+                        </tr>
+                        <tr>
+                            <td>Quinta</td>
+                            <td>09:00 - 19:00</td>
+                        </tr>
+                        <tr>
+                            <td>Sexta</td>
+                            <td>09:00 - 19:00</td>
+                        </tr>
+                        <tr>
+                            <td>Sábado</td>
+                            <td>09:00 - 19:00</td>
+                        </tr>
+                        <tr>
+                            <td>Domingo</td>
+                            <td>Fechado</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <a class="zap-link" href="http://api.whatsapp.com/send?1=pt_BR&phone=5511920031631" target="_blank"><img class="zap-logo" src="./img/sap.png" alt="Whatsapp"></a>
+            </div>
+        </main>
+        <footer class="rodape">
+            <img class="rodape-logo" src="./img/logo.jpg" alt="Logo Jesu's Cabeleireiros">
+            <p class="rodape-descricao">&copy; Copyright - Jesu's Cabeleireiros</p>
+        </footer>
+    </body>
+</html>

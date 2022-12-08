@@ -1,0 +1,76 @@
+@media screen and (max-width: 480px) {
+    .cabecalho-caixa {
+        width: auto;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .titulo-principal {
+        text-align: center;
+    }
+
+    .menu {
+        text-align: center;
+        padding: 0 0 1rem 0;
+        position: static;
+    }
+
+    .sobre {
+        padding: 2rem 1rem;
+    }
+
+    .beneficios-lista {
+        width: 100%;
+    }
+
+    .beneficios-imagem {
+        padding: 2rem 0 0 0;
+        width: 100%;
+    }
+
+    .zap-logo {
+        width: 3.5rem;
+    }
+
+    .video {
+        width: 90%;
+    }
+
+    .formulario {
+        padding: 2.5rem 0 0 0;
+    }
+    
+    .contato-main {
+        width: 90%;
+    }
+
+    .formulario input, .formulario label, .formulario textarea {
+        width: 90%;
+    } 
+
+    .fieldset-radio {
+        width: 100%;
+    }
+    
+    .fieldset-radio input {
+        width: 10%;
+    }
+
+    .formulario .botao-enviar {
+        width: 100%;
+    }
+
+    .tabela-horarios {
+        width: 100%;
+    }
+
+    .rodape {
+        text-align: center;
+    }
+
+    .rodape-logo {
+        width: 100%;
+    }
+}
