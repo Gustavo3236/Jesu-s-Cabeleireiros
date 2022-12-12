@@ -100,6 +100,7 @@ body {
     margin: 0 0.5rem 0 0;
     right: 0;
     top: 90%;
+    z-index: 10;
 }
 
 .zap-logo {
@@ -133,11 +134,28 @@ body {
 }
 
 .rodape-logo {
-    width: 20rem;
+    width: 15rem;
+}
+
+.lista-rodape {
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+.lista-rodape__item {
+    display: inline;
+    vertical-align: middle;
+}
+
+.lista-rodape__logo {
+    margin: 0 0.5rem;
+    width: 2.5rem;
 }
 
 .rodape-descricao {
     color: #ffffff;
+    font-size: 0.85rem;
+    padding: 0 0 1rem 0;
     text-align: center;
     transition: 1.5s all;
 }
