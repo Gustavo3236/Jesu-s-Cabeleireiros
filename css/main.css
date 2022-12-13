@@ -149,7 +149,12 @@ body {
 
 .lista-rodape__logo {
     margin: 0 0.5rem;
+    transition: 0.5s all;
     width: 2.5rem;
+}
+
+.lista-rodape__logo:hover {
+    transform: scale(1.2);
 }
 
 .rodape-descricao {
