@@ -13,7 +13,6 @@
 
     .menu {
         text-align: center;
-        padding: 0 0 1rem 0;
         position: static;
     }
 
@@ -21,12 +20,17 @@
         padding: 2rem 1rem;
     }
 
-    .beneficios-lista {
-        width: 100%;
+    .beneficios {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
     }
 
+    .beneficios-lista {
+        padding: 0 0 2rem 0;
+    }
+    
     .beneficios-imagem {
-        padding: 2rem 0 0 0;
         width: 100%;
     }
 
@@ -35,6 +39,7 @@
     }
 
     .video {
+        height: 20rem;
         width: 90%;
     }
 
@@ -72,5 +77,39 @@
 
     .rodape-logo {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .cabecalho-caixa {
+        width: auto;
+    }
+
+    .menu {
+        padding: 0 0 1rem 0;
+    }
+
+    .beneficios {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .beneficios-lista {
+        width: 100%;
+    }
+
+    .beneficios-imagem {
+        padding: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .siga-nos__lista {
+        padding: 1.2rem 0 0 0;
+    }
+
+    .rodape-logo {
+        position: absolute;
     }
 }

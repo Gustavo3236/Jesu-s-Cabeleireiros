@@ -56,19 +56,20 @@ body {
 }
 
 .beneficios {
-    padding: 2rem;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    padding: 2rem 5rem;
 }
 
 .beneficios-titulo {
     font-size: 2.2rem;
     padding: 0 0 2rem 0;
     text-align: center;
+    grid-column: span 2;
 }
 
 .beneficios-lista {
-    display: inline-block;
-    padding: 0 2rem 0 0;
-    vertical-align: top;
+    padding: 0 0rem 0 0;
 }
 
 .beneficios-lista__item {
@@ -82,7 +83,7 @@ body {
 }
 
 .beneficios-imagem {
-    padding: 0 0 0 15rem;
+    justify-self: flex-end;
     width: 40rem;
 }
 
@@ -92,6 +93,7 @@ body {
 }
 
 .video {
+    height: 25rem;
     width: 50%;
 }
 
@@ -135,6 +137,36 @@ body {
 
 .rodape-logo {
     width: 15rem;
+}
+
+.siga-nos__lista {
+    display: flex;
+    justify-content: center;
+}
+
+.siga-nos__item {
+    list-style: none;
+}
+
+.siga-nos__item div {
+    align-items: center;
+    animation: animate 1.5s linear infinite;
+    color: #c5af72;
+    display: flex;
+    font-size: 1.2rem;
+    height: 2rem;
+    justify-content: center;
+    text-shadow: 0 0 15px #c5af72, 0 0 25px #c5af72;
+    width: 2rem;
+}
+
+@keyframes animate {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
 }
 
 .lista-rodape {
