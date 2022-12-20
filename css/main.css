@@ -1,9 +1,19 @@
+:root {
+    --cor-do-menu: #eeeeee;
+    --cor-do-menu-hover: #d1b25c;
+    --cor-de-fundo-cabecalho: #000000;
+    --cor-de-fundo-sobre: #c5af72;
+    --cor-de-fundo-rodape: #000000;
+    --cor-descricao-rodape: #eeeeee;
+    --cor-descricao-rodape-hover: #c5af72;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
 }
 
 .cabecalho {
-    background: #000000;
+    background: var(--cor-de-fundo-cabecalho);
 }
 
 .cabecalho-caixa {
@@ -27,7 +37,7 @@ body {
 }
 
 .menu-lista__link {
-    color: #eeeeee;
+    color: var(--cor-do-menu);
     font-size: 1.4rem;
     font-weight: bold;
     margin: 0 0 0 1rem;
@@ -36,11 +46,11 @@ body {
 }
 
 .menu-lista__link:hover {
-    color: #dba100;
+    color: var(--cor-do-menu-hover);
 }
 
 .sobre {
-    background-color: #c5af72;
+    background-color: var(--cor-de-fundo-sobre);
     padding: 2rem 0;
     text-align: center;
 }
@@ -144,7 +154,7 @@ body {
 }
 
 .rodape {
-    background: #000000;
+    background: var(--cor-de-fundo-rodape);
     padding: 0.2rem 0 1rem 0.2rem;
 }
 
@@ -203,13 +213,15 @@ body {
 }
 
 .rodape-descricao {
-    color: #ffffff;
+    color: var(--cor-descricao-rodape);
     font-size: 0.85rem;
     padding: 0 0 1rem 0;
     text-align: center;
-    transition: 1.5s all;
+    transition: 1.25s all;
 }
 
 .rodape-descricao:hover {
-    color: #dba100;
+    animation: animate 1.5s linear infinite;
+    color: var(--cor-descricao-rodape-hover);
+    text-shadow: 0 0 5px #c5af72, 0 0 15px #c5af72;
 }
