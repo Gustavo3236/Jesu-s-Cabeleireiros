@@ -12,6 +12,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="./img/logo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 </head>
 <body>
     <header class="cabecalho">
@@ -52,7 +54,10 @@
                 <li class="beneficios__lista-item">★ Profissionais Qualificados</li>
             </ul>
 
-            <img src="./img/je1.jpg" alt="foto de corte de cabelo">
+            <div class="carrossel">
+                <img class="carrossel__imagem" src="./img/je2.jpg" alt="foto de corte de cabelo">
+                <img class="carrossel__imagem" src="./img/je3.jpg" alt="foto de corte de cabelo">
+            </div>
 
             <div class="container__video">
                 <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY" 
@@ -100,7 +105,12 @@
         </ul>
         <p class="rodape__copyright">&copy; Copyright - Jesu's Cabeleireiros</p>
     </footer>
-
+    
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="./index.js"></script>
+
 </body>
 </html>
