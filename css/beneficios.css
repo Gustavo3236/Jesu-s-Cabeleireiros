@@ -1,0 +1,28 @@
+.beneficios {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em 1.5em 0 1.5em;
+}
+
+.beneficios__titulo {
+    font-size: 2em;
+    text-align: center;
+}
+
+.beneficios__lista {
+    padding: 2em 0;
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+.beneficios__lista-item {
+    padding: 0 0 0.3em 0;
+}
+
+.container__video {
+    padding: 2em 0;
+}
+
+.video {
+    width: 100%;
+}

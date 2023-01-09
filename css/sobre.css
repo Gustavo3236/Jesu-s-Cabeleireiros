@@ -1,0 +1,14 @@
+.sobre {
+    background-color: var(--dourado);
+    text-align: center;
+    padding: 2em 1em;
+}
+
+.sobre__titulo {
+    font-size: 2em;
+}
+
+.sobre__texto {
+    padding: 1em 0 0 0;
+    font-size: 1.2em;
+}
