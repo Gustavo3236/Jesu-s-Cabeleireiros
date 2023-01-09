@@ -30,8 +30,8 @@
     position: absolute;
     left: -80vw;
     transition: 1s all;
-    opacity: 0.95;
-    box-shadow: 4px 4px 4px 0 var(--preto)
+    opacity: 0.94;
+    box-shadow: 4px 4px 4px 0 var(--preto);
 }
 
 .menu-lateral--ativo {

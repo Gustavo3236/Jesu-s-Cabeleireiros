@@ -12,6 +12,5 @@ $('.carrossel').slick({
     speed: 1500,
     fade: true,
     cssEase: 'linear',
-    autoplay: true,
-    centerMode: true,
+    autoplay: true
   });

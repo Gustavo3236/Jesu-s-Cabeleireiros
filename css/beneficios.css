@@ -19,40 +19,6 @@
     padding: 0 0 0.3em 0;
 }
 
-.carrossel {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.carrossel__imagem {
-    width: 100%;
-}
-
-ul.slick-dots {
-    position: absolute;
-    left: 43%;
-}
-
-.slick-dots li{
-    float: left;
-    padding: 0 0.2em;
-}
-
-.slick-dots li.slick-active button {
-    background-color: var(--dourado);
-}
-
-.slick-dots li button {
-    font-size: 0;
-    border: 4px solid var(--preto);
-    border-radius: 50%;
-    background-color: transparent;
-    width: 10px;
-    height: 20px;
-    box-shadow: 0px 0px 5px 0px var(--preto);
-}
-
 .container__video {
     padding: 2em 0;
 }
