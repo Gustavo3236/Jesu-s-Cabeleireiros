@@ -28,9 +28,10 @@
     width: 75vw;
     z-index: 1;
     position: absolute;
-    left: -75vw;
+    left: -80vw;
     transition: 1s all;
     opacity: 0.95;
+    box-shadow: 0 4px 4px 0 var(--preto)
 }
 
 .menu-lateral--ativo {
