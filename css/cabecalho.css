@@ -88,3 +88,46 @@
 .cabecalho__logo {
     width: 5rem;
 }
+
+@media screen and (min-width: 760px) {
+    .cabecalho__titulo {
+        font-size: 1.4em;
+    }
+
+    .menu__hamburguer {
+        width: 3em;
+    }
+
+    .menu-lateral {
+        height: 100vh;
+    }
+
+    .menu-lateral__link {
+        font-size: 1.8em;
+    }
+}
+
+@media screen and (min-width: 1020px) {
+
+    .titulo__principal {
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo {
+        width: 50%;
+    }
+
+    .cabecalho__titulo {
+        font-size: 1.5em;
+    }
+
+    .menu__hamburguer {
+        width: 3.5em;
+    }
+
+    .menu-lateral {
+        width: 50vw;
+    }
+
+}

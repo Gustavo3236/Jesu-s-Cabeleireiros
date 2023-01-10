@@ -60,7 +60,31 @@
 }
 
 .rodape__copyright {
-    color: var(--branco);
+    color: var(--cinza-claro);
     font-size: 0.9em;
     padding: 0 0 1em 0;
+}
+
+@media screen and (min-width: 760px) {
+    .siga-nos__item div {
+        font-size: 1.5em;
+    }
+
+    .redes-sociais__logo {
+        width: 3em;
+    }
+
+    .rodape__copyright {
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (min-width: 1020px) {
+    .rodape__logo {
+        width: 50%;
+    }
+
+    .redes-sociais__logo {
+        width: 3.5em;
+    }
 }

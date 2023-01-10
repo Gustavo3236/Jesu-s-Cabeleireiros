@@ -31,7 +31,8 @@
 
 ul.slick-dots {
     position: absolute;
-    left: 43%;
+    left: 30%;
+    padding: 0.5em 0;
 }
 
 .slick-dots li{
@@ -54,9 +55,96 @@ ul.slick-dots {
 }
 
 .container__video {
-    padding: 2em 0;
+    padding: 4em 0 2em 0;
 }
 
 .video {
     width: 100%;
+}
+
+@media screen and (min-width: 440px) {
+    ul.slick-dots {
+        left: 35%;
+    }
+}
+
+@media screen and (min-width: 540px) {
+    ul.slick-dots {
+        left: 38%;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    ul.slick-dots {
+        left: 40%;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    ul.slick-dots {
+        left: 40.5%;
+    }
+}
+
+@media screen and (min-width: 760px) {
+    ul.slick-dots {
+        left: 41%;
+    }
+    
+    .slick-dots li button {
+        width: 10px;
+        height: 20px;
+    }
+
+    .beneficios__titulo {
+        font-size: 2.4em;
+    }
+
+    .beneficios__lista-item {
+        font-size: 1.5em;
+    }
+
+    img.slick-slide {
+        height: 40em;
+    }
+
+    .video {
+        height: 30em;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 880px) {
+    ul.slick-dots {
+        left: 42%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    ul.slick-dots {
+        left: 43%;
+    }
+}
+
+@media screen and (min-width: 1020px) {
+    .beneficios__lista {
+        padding: 2em 4em;
+    }
+
+    .slick-slide {
+        padding: 0 4em;
+    }
+
+    img.slick-slide {
+        width: 10em;
+        height: 40em;
+    }
+
+    .container__video {
+        padding: 4em 3em 2em 3em;
+    }
+
+    .video {
+        height: 30em;
+    }
 }

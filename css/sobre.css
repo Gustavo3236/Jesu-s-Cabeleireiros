@@ -12,3 +12,13 @@
     padding: 1em 0 0 0;
     font-size: 1.2em;
 }
+
+@media screen and (min-width: 760px) {
+    .sobre__titulo {
+        font-size: 2.5em;
+    }
+
+    .sobre__texto {
+        font-size: 2em;
+    }
+}

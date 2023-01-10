@@ -38,3 +38,24 @@
         transform: translateY(0px);
     }
 }
+
+@media screen and (min-width: 760px) {
+    .localizacao__titulo {
+        font-size: 2em;
+    }
+
+    .zap-logo {
+        width: 4em;
+    }
+}
+
+@media screen and (min-width: 1020px) {
+    .mapa {
+        height: 30em;
+        width: 100%;
+    }
+
+    .zap-logo {
+        width: 4.5em;
+    }
+}

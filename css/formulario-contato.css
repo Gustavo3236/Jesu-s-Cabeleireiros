@@ -13,6 +13,8 @@
 .formulario__input, textarea {
     margin: 0 0 1.5em 0;
     padding: 0.5em 1em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
 }
 
 .formulario__botao-enviar {
@@ -23,6 +25,7 @@
     color: var(--branco);
     cursor: pointer;
     transition: 1s all;
+    font-family: 'Roboto', sans-serif;
 }
 
 .formulario__botao-enviar:hover {
@@ -32,6 +35,7 @@
 
 .tabela-horarios {
     margin: 1em 0 0 0;
+    font-size: 1em;
 }
 
 .tabela-horarios thead, .tabela-horarios th, .tabela-horarios td {
@@ -50,4 +54,23 @@
 
 .tabela-horarios td {
     padding: 1em 0;
+}
+
+@media screen and (min-width: 760px) {
+    .formulario__label {
+        font-size: 1.8em;
+    }
+
+    .formulario__input, textarea {
+        font-size: 1.5em;
+    }
+
+    .formulario__botao-enviar {
+        padding: 0.6em 0;
+        font-size: 1.8em;
+    }
+
+    .tabela-horarios {
+        font-size: 1.8em;
+    }
 }
