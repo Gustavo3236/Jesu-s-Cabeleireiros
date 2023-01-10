@@ -24,7 +24,7 @@
 }
 
 .zap-logo:hover {
-    width: 4em;
+    transform: scale(1.2);
 }
 
 @keyframes float {

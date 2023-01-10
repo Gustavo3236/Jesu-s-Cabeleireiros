@@ -3,6 +3,8 @@
 @import url("./beneficios.css");
 @import url("./localizacao.css");
 @import url("./rodape.css");
+@import url("./contato.css");
+@import url("./formulario-contato.css");
 
 :root {
     --branco: #FFFFFF;
@@ -10,6 +12,7 @@
     --dourado: #c5af72;
     --cor-do-menu: #eeeeee;
     --dourado-escuro: #d1b25c;
+    --cinza: #777777;
 }
 
 body {

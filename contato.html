@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jesu's Cabeleireiros</title>
+    <title>Jesu's Cabeleireiros | Contato</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,44 +35,71 @@
                     <li class="menu-lateral__item"><a class="menu-lateral__link" href="./contato.html">Contato</a></li>
                 </ul>                
             </div>
-        </nav>
-        <section class="sobre">
+        </nav>       
+        <section class="contato">     
 
-            <p class="sobre__titulo">Sobre nós</p>
-            <p class="sobre__texto">Salão de beleza unissex, atende com hora marcada.</p>
-            <p class="sobre__texto">Revenda de produtos cosméticos marcas variadas.</p>
+            <h3 class="contato__titulo">Contate-nos!</h3>
 
-        </section>
-        <section class="beneficios">
+            <h3 class="contato__titulo-texto">Telefone:</h3>
+            <p class="contato__texto">(11) 2555-6683</p>
 
-            <h2 class="beneficios__titulo">Benefícios</h2>
-
-            <ul class="beneficios__lista">
-                <li class="beneficios__lista-item">★ Atendimento aos Clientes</li>
-                <li class="beneficios__lista-item">★ Espaço diferenciado</li>
-                <li class="beneficios__lista-item">★ Localização</li>
-                <li class="beneficios__lista-item">★ Profissionais Qualificados</li>
-            </ul>
-
-            <div class="carrossel">
-                <img class="carrossel__imagem" src="./img/je2.jpg" alt="foto de corte de cabelo">
-                <img class="carrossel__imagem" src="./img/je3.jpg" alt="foto de corte de cabelo">
-            </div>
-
-            <div class="container__video">
-                <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY" 
-                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
-                encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
+            <h3 class="contato__titulo-texto">Endereço:</h3>
+            <p class="contato__texto">Av. José Higino Neves, 1211 - Jardim Sao Paulo(Zona Leste), São Paulo - SP, 08461-650</p>
 
         </section>
-        <section class="localizacao">
-            <h2 class="localizacao__titulo">Nossa Localização</h2>
-            <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7209.346115133571!2d-46.40
-            194300000001!3d-23.56655!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7cad4a60b9943c59!2sJesu&#39;s
-            %20Cabeleireiros!5e1!3m2!1spt-BR!2sbr!4v1673287217949!5m2!1spt-BR!2sbr" width="600" height="450"
-             style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
+        <section class="formulario-contato">
+            <label class="formulario__label" for="nome">Nome</label>
+            <input class="formulario__input" type="text" id="nome" placeholder="Escreva seu nome">
+            <label class="formulario__label" for="e-mail">E-mail</label>
+            <input class="formulario__input" type="email" id="e-mail" placeholder="email@domínio.com">
+            <label class="formulario__label" for="telefone">Telefone</label>
+            <input class="formulario__input" type="number" id="telefone" placeholder="(xx)xxxxx-xxxx">
+            <label class="formulario__label" for="mensagem">Mensagem</label>
+            <textarea id="mensagem" cols="30" rows="10" placeholder="deixe sua mensagem aqui"></textarea>
+
+            <input class="formulario__botao-enviar" type="submit" value="Enviar Formulário">
+
+            <table class="tabela-horarios">
+                <thead>
+                    <tr>
+                        <th colspan="2">Horário de Funcionamento</th>
+                    </tr>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Horário</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Segunda</td>
+                        <td>Fechado</td>
+                    </tr>
+                    <tr>
+                        <td>Terça</td>
+                        <td>09h - 19h</td>
+                    </tr>
+                    <tr>
+                        <td>Quarta</td>
+                        <td>09h - 19h</td>
+                    </tr>
+                    <tr>
+                        <td>Quinta</td>
+                        <td>09h - 19h</td>
+                    </tr>
+                    <tr>
+                        <td>Sexta</td>
+                        <td>09h - 19h</td>
+                    </tr>
+                    <tr>
+                        <td>Sábado</td>
+                        <td>09h - 19h</td>
+                    </tr>
+                    <tr>
+                        <td>Domingo</td>
+                        <td>Fechado</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
         <div class="zap">
             <a class="zap-link" href="http://api.whatsapp.com/send?1=pt_BR&amp;phone=5511970933292" 
@@ -105,12 +132,12 @@
         </ul>
         <p class="rodape__copyright">&copy; Copyright - Jesu's Cabeleireiros</p>
     </footer>
-    
+        
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="./index.js"></script>
-
+    
 </body>
 </html>
