@@ -24,7 +24,7 @@
 
 .menu-lateral {
     background-color: var(--preto);
-    height: 70vh;
+    height: 70%;
     width: 75vw;
     z-index: 5;
     position: absolute;
@@ -99,7 +99,7 @@
     }
 
     .menu-lateral {
-        height: 100vh;
+        height: 100%;
     }
 
     .menu-lateral__link {

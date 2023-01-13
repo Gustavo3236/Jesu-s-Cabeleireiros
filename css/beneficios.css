@@ -71,6 +71,7 @@ ul.slick-dots {
 @media screen and (min-width: 540px) {
     ul.slick-dots {
         left: 38%;
+        top: 95%;
     }
 }
 
@@ -89,6 +90,7 @@ ul.slick-dots {
 @media screen and (min-width: 760px) {
     ul.slick-dots {
         left: 41%;
+        top: 100%;
     }
     
     .slick-dots li button {
@@ -135,10 +137,6 @@ ul.slick-dots {
         padding: 0 4em;
     }
 
-    img.slick-slide {
-        width: 10em;
-        height: 40em;
-    }
 
     .container__video {
         padding: 4em 3em 2em 3em;
@@ -146,5 +144,65 @@ ul.slick-dots {
 
     .video {
         height: 30em;
+    }
+}
+
+@media screen and (min-width: 1040px) {
+    ul.slick-dots {
+        left: 44%;
+    }
+}
+
+@media screen and (min-width: 1140px) {
+    ul.slick-dots {
+        left: 44.5%;
+        top: 95%;
+    }
+
+    .slick-slide {
+        padding: 0 5em;
+    }
+
+    img.slick-slide {
+        width: 100%;
+        height: 100%;
+        padding: 0 15em;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    ul.slick-dots {
+        left: 45%;
+        top: 95%;
+    }
+
+    img.slick-slide {
+        padding: 0 15em;
+    }
+
+    .container__video {
+        padding: 4em 5em;
+    }
+}
+
+@media screen and (min-width: 1410px) {
+    ul.slick-dots {
+        left: 45.5%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    
+}
+
+@media screen and (min-width: 1520px) {
+    ul.slick-dots {
+        left: 46%;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    ul.slick-dots {
+        left: 46.5%;
     }
 }
