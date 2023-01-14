@@ -37,75 +37,81 @@
                     <li class="menu-lateral__item"><a class="menu-lateral__link" href="./contato.html">Contato</a></li>
                 </ul>                
             </div>
-        </nav>       
-        <section class="contato">     
+        </nav>
+        <div class="container__principal">     
+            <section class="contato">     
 
-            <h3 class="contato__titulo">Contate-nos!</h3>
+                <h3 class="contato__titulo">Contate-nos!</h3>
 
-            <h3 class="contato__titulo-texto">Telefone:</h3>
-            <p class="contato__texto">(11) 2555-6683</p>
+                <div class="container__contato">
+                    <h3 class="contato__titulo-texto">Telefone:</h3>
+                    <p class="contato__texto">(11) 2555-6683</p>
 
-            <h3 class="contato__titulo-texto">Email:</h3>
-            <p class="contato__texto">salaojesus@gmail.com</p>
+                    <h3 class="contato__titulo-texto">Email:</h3>
+                    <p class="contato__texto">salaojesus@gmail.com</p>
 
-            <h3 class="contato__titulo-texto">Endereço:</h3>
-            <p class="contato__texto">Av. José Higino Neves, 1211 - Jardim São Paulo(Zona Leste), São Paulo - SP, 08461-650</p>
+                    <h3 class="contato__titulo-texto">Endereço:</h3>
+                    <p class="contato__texto">Av. José Higino Neves, 1211 - Jardim São Paulo(Zona Leste), São Paulo - SP, 08461-650</p>
+                </div>
+                
+                <table class="tabela-horarios">
+                    <thead>
+                        <tr>
+                            <th colspan="2">Horário de Funcionamento</th>
+                        </tr>
+                        <tr>
+                            <th>Dia</th>
+                            <th>Horário</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Segunda</td>
+                            <td>Fechado</td>
+                        </tr>
+                        <tr>
+                            <td>Terça</td>
+                            <td>09h - 19h</td>
+                        </tr>
+                        <tr>
+                            <td>Quarta</td>
+                            <td>09h - 19h</td>
+                        </tr>
+                        <tr>
+                            <td>Quinta</td>
+                            <td>09h - 19h</td>
+                        </tr>
+                        <tr>
+                            <td>Sexta</td>
+                            <td>09h - 19h</td>
+                        </tr>
+                        <tr>
+                            <td>Sábado</td>
+                            <td>09h - 19h</td>
+                        </tr>
+                        <tr>
+                            <td>Domingo</td>
+                            <td>Fechado</td>
+                        </tr>
+                    </tbody>
+                </table>
 
-        </section>
-        <section class="formulario-contato">
-            <label class="formulario__label" for="nome">Nome</label>
-            <input class="formulario__input" type="text" id="nome" placeholder="Escreva seu nome" required>
-            <label class="formulario__label" for="e-mail">E-mail</label>
-            <input class="formulario__input" type="email" id="e-mail" placeholder="email@domínio.com" required>
-            <label class="formulario__label" for="telefone">Telefone</label>
-            <input class="formulario__input" type="number" id="telefone" placeholder="(xx)xxxxx-xxxx" required>
-            <label class="formulario__label" for="mensagem">Mensagem</label>
-            <textarea id="mensagem" cols="30" rows="10" placeholder="deixe sua mensagem aqui"></textarea required>
+            </section>
+            <section class="formulario-contato">
+                <label class="formulario__label" for="nome">Nome</label>
+                <input class="formulario__input" type="text" id="nome" placeholder="Escreva seu nome" required>
+                <label class="formulario__label" for="e-mail">E-mail</label>
+                <input class="formulario__input" type="email" id="e-mail" placeholder="email@domínio.com" required>
+                <label class="formulario__label" for="telefone">Telefone</label>
+                <input class="formulario__input" type="number" id="telefone" placeholder="(xx)xxxxx-xxxx" required>
+                <label class="formulario__label" for="mensagem">Mensagem</label>
+                <textarea id="mensagem" cols="30" rows="10" placeholder="deixe sua mensagem aqui"></textarea required>
 
-            <input class="formulario__botao-enviar" type="submit" value="Enviar Formulário">
+                <input class="formulario__botao-enviar" type="submit" value="Enviar Formulário">
 
-            <table class="tabela-horarios">
-                <thead>
-                    <tr>
-                        <th colspan="2">Horário de Funcionamento</th>
-                    </tr>
-                    <tr>
-                        <th>Dia</th>
-                        <th>Horário</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Segunda</td>
-                        <td>Fechado</td>
-                    </tr>
-                    <tr>
-                        <td>Terça</td>
-                        <td>09h - 19h</td>
-                    </tr>
-                    <tr>
-                        <td>Quarta</td>
-                        <td>09h - 19h</td>
-                    </tr>
-                    <tr>
-                        <td>Quinta</td>
-                        <td>09h - 19h</td>
-                    </tr>
-                    <tr>
-                        <td>Sexta</td>
-                        <td>09h - 19h</td>
-                    </tr>
-                    <tr>
-                        <td>Sábado</td>
-                        <td>09h - 19h</td>
-                    </tr>
-                    <tr>
-                        <td>Domingo</td>
-                        <td>Fechado</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
+
+            </section>
+        </div>  
         <div class="zap">
             <a class="zap-link" href="http://api.whatsapp.com/send?1=pt_BR&amp;phone=5511970933292" 
             target="_blank"> <img class="zap-logo" src="./img/sap.png" alt="Whatsapp"></a>

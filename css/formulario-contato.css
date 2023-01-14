@@ -36,6 +36,7 @@
 .tabela-horarios {
     margin: 1em 0 0 0;
     font-size: 1em;
+    width: 100%;
 }
 
 .tabela-horarios thead, .tabela-horarios th, .tabela-horarios td {
@@ -56,21 +57,64 @@
     padding: 1em 0;
 }
 
-@media screen and (min-width: 760px) {
-    .formulario__label {
-        font-size: 1.8em;
+@media screen and (min-width: 1020px) {
+    .container__principal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
-    .formulario__input, textarea {
+    .formulario-contato {
+        width: 90%;
+    }
+
+    .formulario__label {
         font-size: 1.5em;
     }
 
+    .formulario__input, textarea {
+        font-size: 1.1em;
+    }
+
     .formulario__botao-enviar {
-        padding: 0.6em 0;
-        font-size: 1.8em;
+        font-size: 1.4em;
     }
 
     .tabela-horarios {
-        font-size: 1.8em;
+        width: 50%;
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .formulario-contato {
+        width: 50%;
+        padding: 2em;
+    }
+
+    .formulario__label {
+        font-size: 1.2em;
+    }
+
+    .formulario__botao-enviar {
+        font-size: 1.2em;
+    }
+
+    .tabela-horarios {
+        margin: 2em 0 2em 0;
+        justify-self: center;
+        width: 60%;
+        font-size: 1em;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .tabela-horarios {
+        width: 70%;
+        font-size: 1.2em;
+    }
+
+    .formulario__label, .formulario__botao-enviar {
+        font-size: 1.5em;
     }
 }

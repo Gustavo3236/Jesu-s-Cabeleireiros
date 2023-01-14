@@ -140,6 +140,10 @@
 
 @media screen and (min-width: 1020px) {
 
+    .menu-lateral__link {
+        font-size: 1.5em;
+    }
+
     .titulo__principal {
         display: flex;
         justify-content: center;
