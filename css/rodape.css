@@ -65,6 +65,17 @@
     padding: 0 0 1em 0;
 }
 
+.link__voltar {
+    text-decoration: none;
+    color: var(--dourado);
+    transition: 1s all;
+    font-size: 0.9em;
+}
+
+.link__voltar:hover {
+    transform: scale(1.1);
+}
+
 @media screen and (min-width: 760px) {
     .siga-nos__item div {
         font-size: 1.5em;
@@ -96,6 +107,10 @@
 
     .redes-sociais__logo {
         width: 3em;
+    }
+
+    .rodape__copyright {
+        font-size: 0.95em;
     }
 
 }
