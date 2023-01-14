@@ -105,6 +105,14 @@
 }
 
 @media screen and (min-width: 760px) {
+    .titulo__principal {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .logo {
+        width: 70%;
+    }
 
     .cabecalho__titulo {
         font-size: 1.4em;
@@ -124,18 +132,11 @@
     }
 }
 
-@media screen and (min-width: 760px) {
-    
-    .titulo__principal {
-        display: flex;
-        justify-content: center;
-    }
-    
+@media screen and (min-width: 880px) {
     .logo {
-        width: 70%;
+        width: 50%;
     }
 }
-
 
 @media screen and (min-width: 1020px) {
 
@@ -145,7 +146,7 @@
     }
 
     .logo {
-        width: 50%;
+        width: 45%;
     }
 
     .cabecalho__titulo {
@@ -153,7 +154,7 @@
     }
 
     .menu__hamburguer {
-        width: 3.5em;
+        width: 3em;
     }
 
     .menu-lateral {
